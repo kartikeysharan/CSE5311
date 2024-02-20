@@ -76,3 +76,17 @@ print("Min Heap after insertion of 3:", min_heap.heap)
 # Popping the minimum element from the heap
 print("Popped Element:", min_heap.pop())  # Output: 1
 print("Min Heap after popping:", min_heap.heap)
+
+# Building a min heap from an array
+min_heap.build_min_heap([4.5, 2.7, 7.2, 1.9, 9.5, 5.3])
+
+# Printing the heap
+print("Initial Min Heap:", min_heap.heap)
+
+# Inserting an element into the heap
+min_heap.insert(3.8)
+print("Min Heap after insertion of 3.8:", min_heap.heap)
+
+# Popping the minimum element from the heap
+print("Popped Element:", min_heap.pop())  # Output: 1
+print("Min Heap after popping:", min_heap.heap)
